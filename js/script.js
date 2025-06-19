@@ -10,6 +10,10 @@ navToggle?.addEventListener('click', () => {
   navList.classList.toggle('open');
 });
 
+navList?.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => navList.classList.remove('open'));
+});
+
 const toTop = document.getElementById('to-top');
 
 window.addEventListener('scroll', () => {
