@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamtamelite Travel Blog</title>
+  <meta name="description" content="Discover travel tips and destinations from around the globe.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+      <div class="container">
+          <h1>Tamtamelite Travel</h1>
+          <nav id="main-nav">
+              <button id="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+              <ul>
+                  <li><a href="#hero">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#posts">Posts</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </nav>
+      </div>
+  </header>
+  <section id="hero">
+      <div class="hero-text">
+          <h2>Adventure Awaits</h2>
+          <p>Join us as we explore the world one destination at a time.</p>
+      </div>
+  </section>
+
+  <section id="posts" class="container">
+      <article class="post">
+          <img src="https://source.unsplash.com/800x600/?mountains" alt="Mountains">
+          <h3>Exploring the Highlands</h3>
+          <p>A journey through some of the most breathtaking mountain ranges.</p>
+      </article>
+      <article class="post">
+          <img src="https://source.unsplash.com/800x600/?beach" alt="Beach">
+          <h3>Sunny Shores</h3>
+          <p>Find out the best beaches to visit during the summer months.</p>
+      </article>
+      <article class="post">
+          <img src="https://source.unsplash.com/800x600/?city" alt="City">
+          <h3>City Lights</h3>
+          <p>Discover hidden gems in bustling metropolitan areas.</p>
+      </article>
+  </section>
+
+  <section id="about" class="container">
+      <h2>About Us</h2>
+      <p>We are passionate travelers documenting our experiences and sharing tips to help others plan their perfect getaway.</p>
+  </section>
+
+  <section id="contact" class="container">
+      <h2>Contact</h2>
+      <form>
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <textarea placeholder="Message" rows="5" required></textarea>
+          <button type="submit">Send</button>
+      </form>
+  </section>
+
+  <footer>
+      <p>&copy; 2025 Tamtamelite Travel</p>
+  </footer>
+
+  <button id="to-top" aria-label="Back to top">&uarr;</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
